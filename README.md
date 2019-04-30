@@ -6,7 +6,7 @@ Thanks to (https://github.com/bevry/envfile) for making things easy for me.
 ## → How does it work
 
 ```
-let environmentJson = parseFileSync(sourcePath)
+let environmentJson = parseFileSync(sourcePath) // parsing env to json
 
 storeJsonToFile(environmentJson) // store converted json to output.json file 
 
