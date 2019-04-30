@@ -1,6 +1,8 @@
 # :package: parse-env-to-secretmanager
 We had a requirement to store our env files to secret manager so that we can fetch it in real time. I wrote a script for it and open sourcing it now.
 
+Thanks to (https://github.com/bevry/envfile) for making things easy for me.
+
 ## → How does it work
 
 ```
