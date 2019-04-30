@@ -13,5 +13,7 @@ storeJsonToFile(environmentJson) // store converted json to output.json file
 createSecret(environmentJson) // store secret in secret manager
 ```
 
+note: you can either pass file pass as a command line argument (node index.js filename) or change `sourcePath` variable.
+
 # License
 Licensed Under GPL 2.0.
